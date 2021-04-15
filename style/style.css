@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
 * { 
     box-sizing: border-box;  /* to not affect the box size with the padding */
 }
-
 body{
     background-color: whitesmoke;
-
+    width: 100;
 }
-
-
 header{
     text-align: left;
     background-color: #fff;
@@ -18,25 +17,18 @@ header{
     padding-top: 0px;
     position: relative;
 }
-
 nav ul {
     margin: 0px;
     text-align: right;
 }
-
-
 nav ul li {
     display: inline-block;
     padding: 0px;
     padding-bottom: 0px;
-  
 }
-
 #firstImg{
-
     width: 40px;
 }
-
 #firstPar{
     display: inline-block;
     font-family: 'Dancing Script', cursive;
@@ -44,25 +36,70 @@ nav ul li {
     font-size: xx-large;
     margin-top: 0px;
     margin-bottom: 0px;
-
 }
-
-#test{
+.test{
     display: inline-block;
     margin-bottom: 0px;
     margin-top: 0px;
-    font-size: xx-small;
+  text-align: left;
+  margin-top: 20px;
 }
-
-/* #h2par{
-
-} */
-
+ #h2par{
+    padding: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+} 
 #print{
     float: right;
 }
-
-/* #div1{
-    
-} */
-
+#div1{
+    background-color: white;
+}
+#centerImage{
+    width: 99%;
+}
+.forms{
+    font-family: 'Wire One', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+#belowCont{
+    text-align: center;
+    margin-bottom: 35px;
+    padding-bottom: 10px;
+}
+.footer {
+    background-color: white;
+    position: relative;
+}
+#botName {
+    display: inline-block;
+}
+#botImg{
+width: 60px;
+}
+ .button {                                                  /*   from w3school   */
+    background-color:rgb(236, 119, 51);
+    border: none;
+    color: white;
+    padding: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    float: right;
+  }
+  .button3 {border-radius: 8px;}
+  #botLogo{
+    text-align: center;
+  }
+  #botPar{
+    font-family: 'Wire One', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+ .last{
+     font-size: x-large ;
+ }
